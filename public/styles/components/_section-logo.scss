@@ -1,0 +1,36 @@
+.section-logo {
+    @include flexDirection(row);      
+    align-items: center;
+    padding-top: 31px;
+    padding-bottom: 39px;  
+    padding-left: 150px;  
+
+    .logo-webjump{
+        cursor: pointer;        
+    }
+
+    .container-input-btn{
+        @include flexDirection(row);
+        align-items: center;
+        padding-left: 195px;  
+               
+
+        .input {
+            width: 580px;
+            height: 43px; 
+            border: 1px solid $color-third;                  
+        }
+        .btn-search {
+            @include fontFamily(800);
+            background-color: $color-second;
+            color: $color-first;
+            font-size: 16px;        
+            border: none;
+            cursor: pointer;
+            width: 110px;
+            height: 47.5px;
+        }
+    }
+
+
+}

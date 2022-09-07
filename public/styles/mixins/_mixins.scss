@@ -1,0 +1,9 @@
+@mixin flexDirection($direction) {
+    display: flex;
+    flex-direction: $direction;    
+}
+
+@mixin fontFamily($weight) {
+    font-family: $font-first;
+    font-weight: $weight;    
+}

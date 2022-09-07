@@ -1,0 +1,92 @@
+.container-page-product{
+    @include flexDirection(row);    
+    padding-top: 24px; 
+    margin-left: 60px; 
+
+    .sidebar-filter{
+        border: 1px solid $color-fourth;
+        height: 500px;
+        width: 250px;
+        padding-top: 14px;
+        padding-left: 15px;
+        margin-left: 101px;
+        margin-right: 24px; 
+        
+        
+        .sidebar-filter-h1{
+            @include fontFamily(900);
+            font-size: 24px;
+            color: $color-second;                       
+        }
+
+        .sidebar-filter-li{
+            @include fontFamily(500);
+            list-style: outside;
+            padding-left: 20px;            
+        }
+
+        .sidebar-filter-h2{
+            @include fontFamily(600);
+            font-size: 18px;
+            color: $color-eight;
+            padding-top: 20px;
+            padding-bottom: 15px;
+        }
+
+        .sidebar-filter-h2-color{
+            @include fontFamily(600);
+            font-size: 18px;
+            color: $color-eight;
+            padding-top: 40px;            
+        }
+
+        .sidebar-colors{
+            @include flexDirection(row);
+            margin-top: 15px;
+
+            .sidebar-color-one{
+                width: 48px;
+                height:24px;
+                background-color: $color-second;
+                margin: 0px 3px;
+            }
+
+            .sidebar-color-two{
+                width: 48px;
+                height:24px;
+                background-color: $color-nine;
+                margin: 0px 3px;
+            }
+
+            .sidebar-color-tree{
+                width: 48px;
+                height:24px;
+                background-color: $color-ten;
+                margin: 0px 3px;
+            }
+        }   
+
+    }
+
+    .wrapper-product{
+        @include flexDirection(column);  
+        @include fontFamily(500) ;        
+    
+        .content{            
+            width: 800px;
+
+            .title-category{
+                font-size: 32px;
+                color: $color-second;
+                padding-bottom: 10px;
+                border-bottom: 1px solid $color-fourth;
+            }
+
+           
+            
+            
+
+            
+        }
+    }
+}

@@ -1,0 +1,446 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  text-decoration: none;
+}
+
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+
+body {
+  line-height: 1;
+}
+
+ol, ul {
+  list-style: none;
+}
+
+blockquote, q {
+  quotes: none;
+}
+
+blockquote:before, blockquote:after {
+  content: '';
+  content: none;
+}
+
+q:before, q:after {
+  content: '';
+  content: none;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+.header .header-access {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: end;
+      -ms-flex-pack: end;
+          justify-content: flex-end;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #231F20;
+  width: 100%;
+  height: 31px;
+}
+
+.header .header-access .header-access-first {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.header .header-access .header-access-second {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: none;
+}
+
+.header .header-access .header-access-third {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 14px;
+  color: #FFFFFF;
+  text-decoration: underline;
+  padding-right: 99px;
+  cursor: pointer;
+}
+
+.section-logo {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-top: 31px;
+  padding-bottom: 39px;
+  padding-left: 150px;
+}
+
+.section-logo .logo-webjump {
+  cursor: pointer;
+}
+
+.section-logo .container-input-btn {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding-left: 195px;
+}
+
+.section-logo .container-input-btn .input {
+  width: 580px;
+  height: 43px;
+  border: 1px solid #959595;
+}
+
+.section-logo .container-input-btn .btn-search {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  background-color: #CB0D1F;
+  color: #FFFFFF;
+  font-size: 16px;
+  border: none;
+  cursor: pointer;
+  width: 110px;
+  height: 47.5px;
+}
+
+.nav-tabs {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  background-color: #CB0D1F;
+  height: 3.375rem;
+}
+
+.nav-tabs .nav-menu-one {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 1rem;
+  color: #FFFFFF;
+  padding-left: 160px;
+  cursor: pointer;
+}
+
+.nav-tabs .nav-menu-two {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  font-size: 16px;
+  color: #FFFFFF;
+  padding-left: 100px;
+  cursor: pointer;
+}
+
+.container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  padding-top: 24px;
+  margin-left: 60px;
+}
+
+.container .sidebar {
+  background-color: #E2DEDC;
+  height: 500px;
+  width: 250px;
+  margin-left: 101px;
+  margin-right: 24px;
+}
+
+.container .sidebar .sidebar-menu {
+  list-style: outside;
+  padding-left: 50px;
+  padding-top: 23px;
+}
+
+.container .sidebar .sidebar-menu .sidebar-menu-item {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.container .wrapper {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.container .wrapper .banner {
+  background-color: #ACACAC;
+  height: 281px;
+  width: 800px;
+  margin-right: 99px;
+}
+
+.container .wrapper .content {
+  height: 181px;
+  width: 800px;
+}
+
+.container .wrapper .content .title-page-intro {
+  font-size: 26px;
+  padding-top: 15px;
+}
+
+.container .wrapper .content .description {
+  font-size: 16px;
+  padding-top: 15px;
+  text-align: justify;
+}
+
+.footer {
+  background-color: #CB0D1F;
+  margin: auto;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  margin-left: 160px;
+  height: 176px;
+  width: 1070px;
+}
+
+.container-page-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  padding-top: 24px;
+  margin-left: 60px;
+}
+
+.container-page-product .sidebar-filter {
+  border: 1px solid #E2DEDC;
+  height: 500px;
+  width: 250px;
+  padding-top: 14px;
+  padding-left: 15px;
+  margin-left: 101px;
+  margin-right: 24px;
+}
+
+.container-page-product .sidebar-filter .sidebar-filter-h1 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 900;
+  font-size: 24px;
+  color: #CB0D1F;
+}
+
+.container-page-product .sidebar-filter .sidebar-filter-li {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  list-style: outside;
+  padding-left: 20px;
+}
+
+.container-page-product .sidebar-filter .sidebar-filter-h2 {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1E2B50;
+  padding-top: 20px;
+  padding-bottom: 15px;
+}
+
+.container-page-product .sidebar-filter .sidebar-filter-h2-color {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+  color: #1E2B50;
+  padding-top: 40px;
+}
+
+.container-page-product .sidebar-filter .sidebar-colors {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  margin-top: 15px;
+}
+
+.container-page-product .sidebar-filter .sidebar-colors .sidebar-color-one {
+  width: 48px;
+  height: 24px;
+  background-color: #CB0D1F;
+  margin: 0px 3px;
+}
+
+.container-page-product .sidebar-filter .sidebar-colors .sidebar-color-two {
+  width: 48px;
+  height: 24px;
+  background-color: #F26324;
+  margin: 0px 3px;
+}
+
+.container-page-product .sidebar-filter .sidebar-colors .sidebar-color-tree {
+  width: 48px;
+  height: 24px;
+  background-color: #27A3A9;
+  margin: 0px 3px;
+}
+
+.container-page-product .wrapper-product {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+}
+
+.container-page-product .wrapper-product .content {
+  width: 800px;
+}
+
+.container-page-product .wrapper-product .content .title-category {
+  font-size: 32px;
+  color: #CB0D1F;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #E2DEDC;
+}
+
+.product-list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-align: stretch;
+      -ms-flex-align: stretch;
+          align-items: stretch;
+}
+
+.product-list .product-item {
+  width: 180px;
+  padding: 20px 5px;
+  margin: 5px;
+}
+
+.product-list .product-item .product-description {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.product-list .product-item .product-description img {
+  border: 1px solid #E2DEDC;
+  width: 80%;
+  height: 150px;
+  padding: 20px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+.product-list .product-item .product-description .title-category-product {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 500;
+  color: #626262;
+  font-size: 16px;
+  text-align: center;
+  padding: 17px;
+  min-height: 35px;
+}
+
+.product-list .product-item .product-description .title-category-price {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 700;
+  color: #1E2B50;
+  font-size: 21px;
+  padding-bottom: 10px;
+  text-align: center;
+}
+
+.product-list .product-item .product-description .btn {
+  font-family: "Open Sans", sans-serif;
+  font-weight: 800;
+  color: #FFFFFF;
+  opacity: 0.60;
+  font-size: 18px;
+  background-color: #00A8A9;
+  border: none;
+  border-radius: 5px;
+  text-align: center;
+  padding: 8px 50px;
+  cursor: pointer;
+  -webkit-transition: all 0.4s;
+  transition: all 0.4s;
+}
+
+.product-list .product-item .product-description .btn:hover {
+  opacity: 1;
+}
+/*# sourceMappingURL=main.css.map */

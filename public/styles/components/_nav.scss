@@ -1,0 +1,22 @@
+.nav-tabs {
+    @include flexDirection(row);
+    align-items: center;
+    background-color: $color-second;
+    height: 3.375rem;
+    
+    .nav-menu-one {
+        @include fontFamily(800);  
+        font-size: 1rem;  
+        color: $color-first;
+        padding-left: 160px;
+        cursor: pointer; 
+    }
+
+    .nav-menu-two{
+        @include fontFamily(800);  
+        font-size: 16px;  
+        color: $color-first;
+        padding-left: 100px;
+        cursor: pointer; 
+    }
+}

@@ -1,0 +1,39 @@
+.header {     
+    .header-access {        
+        @include flexDirection(row);        
+        justify-content: flex-end;
+        align-items: center;
+        background-color: $color-six;  
+        width: 100%;      
+        height: 31px;
+        
+        
+        .header-access-first {
+            @include fontFamily(600);
+            font-size: 14px;
+            color: $color-first;
+            text-decoration: underline;           
+            cursor: pointer;
+        }
+
+        .header-access-second {
+            @include fontFamily(500);
+            font-size: 14px;
+            color: $color-first;
+            text-decoration: none;            
+        }
+
+        .header-access-third {
+            @include fontFamily(600);
+            font-size: 14px;
+            color: $color-first;
+            text-decoration: underline;
+            padding-right: 99px;
+            cursor: pointer;
+        }
+
+
+
+    }
+
+}

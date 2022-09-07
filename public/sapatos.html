@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles/main.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;700;800&display=swap" rel="stylesheet"> 
+    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+    <script type="module" src="server/main.js"></script>
+    <title>Document</title>
+</head>
+<body>
+    <header class="header">
+        <div class="header-access">
+          <h3>
+            <strong class="header-access-first">Acesse sua Conta</strong> 
+            <strong class="header-access-second"> ou </strong>
+            <strong class="header-access-third">Cadastre-se</strong>
+          </h3>
+        </div>
+      </header>
+
+      <section class="section-logo">
+        <a href="index.html"><img class="logo-webjump"src="./media/logo-webjump.png" alt="Logo Webjump"/></a>
+        <div class="container-input-btn"><input class="input" type="text"><button class="btn-search">BUSCAR</button></div>
+      </section>
+
+      <nav>
+        <ul class="nav-tabs">
+          <a href="index.html">
+            <li class="nav-menu-one">PÁGINA INICIAL</li>
+          </a>
+          <a href="camiseta.html">
+            <li class="nav-menu-two">CAMISETAS</li>
+          </a>
+          <a href="calcas.html">
+            <li class="nav-menu-two">CALÇAS</li>
+          </a>
+          <a href="sapatos.html">
+            <li class="nav-menu-two">SAPATOS</li>
+          </a>
+          <a href="index.html">
+            <li class="nav-menu-two">CONTATO</li>
+          </a>
+        </ul>    
+      </nav>
+
+      <section class="container-page-product">
+        <aside class="sidebar-filter">
+          <h1 class="sidebar-filter-h1">FILTRE POR</h1>
+          <h2 class="sidebar-filter-h2">CATEGORIAS</h2>
+          <ul class="sidebar-filter-li">
+              <li>Roupas</li>
+              <li>Sapatos</li>
+              <li>Acessórios</li>
+          </ul>
+
+          <h2 class="sidebar-filter-h2-color">CORES</h2>
+          <div class="sidebar-colors">
+            <div class="sidebar-color-one"></div>
+            <div class="sidebar-color-two"></div>
+            <div class="sidebar-color-tree"></div>
+
+          </div>
+          
+
+          <h2 class="sidebar-filter-h2">TIPO</h2>
+          <ul class="sidebar-filter-li">
+            <li>Corrida</li>
+            <li>Caminhada</li>
+            <li>Casual</li>
+            <li>Social</li>
+        </ul>
+        </aside>
+    
+        <div class="wrapper-product">             
+          <main class="content">
+            <h1 class="title-category">Sapatos</h1>
+            <div id="renderResult" class="product-list" data-product="3"></div>                       
+          </main>
+        </div>
+
+      </section>
+    
+      <footer class="footer"></footer>
+</body>
+</html>
